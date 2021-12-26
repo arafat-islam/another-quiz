@@ -1,0 +1,39 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.2%;
+}
+
+body {
+    background-color: #304F5E;
+    /* background-color: #181A1B; */
+    color: white;
+    font-size: 1.6rem;
+}
+
+.container {
+    max-width: 960px;
+    margin-top: 10%;
+}
+
+.container h1 {
+    font-size: 5.6rem;
+    margin-bottom: 2rem;
+}
+
+.card-header {
+    background-color: #458271;
+}
+
+.card-body {
+    background-color: #181A1B;
+}
+
+.card {
+    border: 0 !important;
+    box-shadow: 0px 7px 9px 1px #151719;
+}
